@@ -13,3 +13,20 @@ html, body {
     background-color: #ffffff;
     color:black;
     }
+
+    nav {
+        background-color: #362FD9;
+        list-style-type: none;
+        width: 115px
+    }
+
+    nav a {
+        color: #E6B325;
+        text-decoration: none;
+        padding: 12px 12px;
+        display: block;
+    }
+
+    nav a:hover {
+        background-color: #181564;
+    }
