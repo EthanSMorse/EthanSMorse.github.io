@@ -1,23 +1,51 @@
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+    body {
+        font-family: 'Righteous', cursive;;
+    }
 
     body {
-        font-family: 'Playfair Display', serif;
+        background-image: linear-gradient(to bottom right, #0335b4, #771cc3);
+        color: #E6B325;
     }
-html, body {
-    height: 100%;
-     width: 100%;
-    }
-      
-      
+
     body {
-    background-color: #ffffff;
-    color:black;
+        min-height: 100vh;
+    }
+
+    .FRight {
+        float: right;
+    }
+
+    .FLeft {
+        float: left;
+    }
+
+    .center {
+        text-align: center;
+    }
+      
+    .right {
+        text-align: right;
+    }
+
+    .left {
+        text-align: left;
+    }
+
+    .header, .footer {
+        background-color: #362FD9;
+        color: #E6B325;
+        padding: 12px;
+        border: 24px;
+        border-radius: 12px;
     }
 
     nav {
         background-color: #362FD9;
         list-style-type: none;
-        width: 115px
+        width: 115px;
+        border: 24px;
+        border-radius: 12px;
     }
 
     nav a {
@@ -25,8 +53,11 @@ html, body {
         text-decoration: none;
         padding: 12px 12px;
         display: block;
+        border: 24px;
+        border-radius: 12px;
     }
 
     nav a:hover {
         background-color: #181564;
     }
+    
