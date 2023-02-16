@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <h1 class="header-style center" id="header-position">My Personal Website: Contact Me</h1>
@@ -16,9 +17,20 @@
         <li><a href="projects.html">Past Projects</a></li>
         <li><a href="Contacts.html">Contact Me</a></li>
     </nav>
-    <form id="form-position" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
-    method="post">
-   >>
+
+<form id="form-position" action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+method="post">
+    <p>
+        <a class="links" href="mailto:emorse@brooklynsteamcenter.org"> 
+            <i class="fa fa-envelope-square"></i>
+        </a> 
+        <a class="links" href="tel:3476333948"> 
+            <i class="fa fa-phone-square"></i>
+        </a>
+        <a class="links" href="https://github.com/EthanSMorse">
+            <i class="fa fa-github-square"></i>
+        </a>
+    </p>
         <label>Full Name:</label>
         <br>
         <input name="Name">
@@ -33,7 +45,7 @@
         <br>
         <label>Best contact time:</label>
         <br>
-        <input type="time">
+        <input type="time" name="BestTime">
         <br>
         <label>Best way to contact you?</label>
         <br>

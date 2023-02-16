@@ -15,13 +15,21 @@
     }
 
     #index-picture {
-        margin: 0px;    
+        margin-top: 125px;
+        margin-right: 150px;
+        float: right;
     }
 
     #index-intro {
-        margin-top: 300px;
-        margin-left: 300px;
+        color: #E6B325;
+        background-color: #782c9f;
+        padding: 10px;
+        border: 4px #E6B325 solid;
+        border-radius: 12px;
+        margin-top: 380px;
+        margin-left: 275px;
         text-align: center;
+        float: left;
     }
 
     .FRight {
@@ -48,7 +56,7 @@
         background-color: #782c9f;
         color: #E6B325;
         padding: 12px 0px;
-        border: 12px;
+        border: 4px #E6B325 solid;
         border-radius: 12px;
         margin: 0;
     }
@@ -56,13 +64,13 @@
     #header-position {
         position: fixed;
         top: 0;
-        width: 99%
+        width: 98.5%
     }
 
     #footer-position {
         position: fixed;
         bottom: 0;
-        width: 99%
+        width: 98.5%
     }
 
     #form-position {
@@ -79,6 +87,7 @@
         position: fixed;
         left: 10px;
         top: 75px;
+        border: 4px #E6B325 solid;
     }
 
     nav a {
@@ -91,6 +100,32 @@
     }
 
     nav a:hover {
-        background-color: #220b3f;
+        background-color: #3d0b57;
+    }
+
+    .links {    
+        color: #E6B325;
+        text-decoration: none;
+        font-size: 48px;
     }
     
+    input, textarea {
+        color: #E6B325;     
+        background-color: #782c9f;
+        border: 2px  #E6B325 solid;
+        border-radius: 8px;
+        padding: 8px;
+    }
+
+    input:focus, textarea:focus, input[type="reset"]:hover, [type="submit"]:hover {
+        border: 2px  #5d4400 solid;
+        background-color: #3d0b57;
+    }
+
+    input [type="radio"] {
+        background-color: #782c9f;
+    }
+
+    label {
+        color: #E6B325;
+    }
