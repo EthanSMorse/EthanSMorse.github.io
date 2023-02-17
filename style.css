@@ -18,6 +18,8 @@
         margin-top: 125px;
         margin-right: 150px;
         float: right;
+        border: 4px;
+        border-radius: 36px;
     }
 
     #index-intro {
@@ -30,6 +32,16 @@
         margin-left: 275px;
         text-align: center;
         float: left;
+    }
+
+    #project1 {
+        margin-top: 300px;
+        margin-left: 275px;
+    }
+
+    .fontsize {
+        font-size: 16px;
+        font-weight: normal;
     }
 
     .FRight {
@@ -61,6 +73,15 @@
         margin: 0;
     }
 
+    .projects-style {
+        color: #E6B325;
+        background-color: #782c9f;
+        padding: 10px;
+        border: 4px #E6B325 solid;
+        border-radius: 12px;
+        float: left;
+    }
+
     #header-position {
         position: fixed;
         top: 0;
@@ -86,7 +107,7 @@
         border-radius: 12px;
         position: fixed;
         left: 10px;
-        top: 75px;
+        top: 79px;
         border: 4px #E6B325 solid;
     }
 
@@ -108,6 +129,10 @@
         text-decoration: none;
         font-size: 48px;
     }
+
+    .links:hover {
+        color: #896501 ;
+    }
     
     input, textarea {
         color: #E6B325;     
@@ -118,7 +143,7 @@
     }
 
     input:focus, textarea:focus, input[type="reset"]:hover, [type="submit"]:hover {
-        border: 2px  #5d4400 solid;
+        border: 2px  #896501 solid;
         background-color: #3d0b57;
     }
 
