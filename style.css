@@ -39,6 +39,54 @@
         margin-left: 275px;
     }
 
+    #project2 {
+        margin-top: 300px;
+        margin-left: 275px;
+    }
+
+    #project3 {
+        margin-top: 380px;
+        margin-left: 275px;
+    }
+
+    #project4 {
+        margin-top: 300px;
+        margin-left: 275px;
+    }
+
+    #project1-picture {
+        margin-top: 200px;
+        margin-right: 150px;
+        float: right;
+        border: 4px;
+        border-radius: 36px;
+    }
+
+    #project2-picture{
+        margin-top: 150px;
+        margin-right: 150px;
+        float: right;
+        border: 4px;
+        border-radius: 36px;
+    }
+
+    #project3-picture {
+        margin-top: 150px;
+        margin-right: 195px;
+        float: right;
+        border: 4px;
+        border-radius: 36px;
+    }
+
+    #project4-picture {
+        margin-top: 150px;
+        margin-right: 150px;
+        margin-bottom: 200px;
+        float: right;
+        border: 4px;
+        border-radius: 36px;
+    }
+
     .fontsize {
         font-size: 16px;
         font-weight: normal;
