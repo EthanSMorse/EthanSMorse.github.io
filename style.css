@@ -25,8 +25,8 @@
     #index-intro {
         color: #E6B325;
         background-color: #782c9f;
+        border: 4px #E6B325 solid;  
         padding: 10px;
-        border: 4px #E6B325 solid;
         border-radius: 12px;
         margin-top: 380px;
         margin-left: 275px;
@@ -50,8 +50,14 @@
     }
 
     #project4 {
-        margin-top: 300px;
+        margin-top: 333px;
         margin-left: 275px;
+    }
+
+    #project5 {
+        margin-top: 225px;
+        margin-left: 490px;
+        margin-bottom: 200px;
     }
 
     #project1-picture {
@@ -81,7 +87,6 @@
     #project4-picture {
         margin-top: 150px;
         margin-right: 150px;
-        margin-bottom: 200px;
         float: right;
         border: 4px;
         border-radius: 36px;
@@ -128,6 +133,14 @@
         border: 4px #E6B325 solid;
         border-radius: 12px;
         float: left;
+    }
+
+    .form-style {
+        background-color: #782c9f;
+        padding: 10px;
+        border: 4px #E6B325 solid;
+        border-radius: 12px;
+        width:  180px;
     }
 
     #header-position {
@@ -201,4 +214,12 @@
 
     label {
         color: #E6B325;
+    }
+
+    @media screen and (max-width: 480px) {
+
+    }
+
+    @media screen and (min-width: 600px)    {
+        
     }
