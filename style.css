@@ -17,17 +17,10 @@
     #index-picture {
         margin-top: 125px;
         margin-right: 150px;
-        float: right;
-        border: 4px;
-        border-radius: 36px;
     }
 
-    #index-intro {
-        color: #E6B325;
-        background-color: #782c9f;
-        border: 4px #E6B325 solid;  
+    #index-intro {  
         padding: 10px;
-        border-radius: 12px;
         margin-top: 380px;
         margin-left: 275px;
         text-align: center;
@@ -63,33 +56,21 @@
     #project1-picture {
         margin-top: 200px;
         margin-right: 150px;
-        float: right;
-        border: 4px;
-        border-radius: 36px;
     }
 
     #project2-picture{
         margin-top: 150px;
         margin-right: 150px;
-        float: right;
-        border: 4px;
-        border-radius: 36px;
     }
 
     #project3-picture {
         margin-top: 150px;
         margin-right: 195px;
-        float: right;
-        border: 4px;
-        border-radius: 36px;
     }
 
     #project4-picture {
         margin-top: 150px;
         margin-right: 150px;
-        float: right;
-        border: 4px;
-        border-radius: 36px;
     }
 
     .fontsize {
@@ -140,7 +121,20 @@
         padding: 10px;
         border: 4px #E6B325 solid;
         border-radius: 12px;
-        width:  180px;
+        width:  195px;
+    }
+
+    .box-style {
+        color: #E6B325;
+        background-color: #782c9f;
+        border: 4px #E6B325 solid;
+        border-radius: 12px;
+    }
+
+    .picture-style {
+        float: right;
+        border: 4px;
+        border-radius: 36px;
     }
 
     #header-position {
@@ -161,24 +155,20 @@
     }
 
     nav {
-        background-color: #782c9f;
         list-style-type: none;
         width: 115px;
-        border: 24px;
-        border-radius: 12px;
         position: fixed;
         left: 10px;
         top: 79px;
-        border: 4px #E6B325 solid;
     }
 
     nav a {
         color: #E6B325;
+        border: 4px;
+        border-radius: 12px;
         text-decoration: none;
         padding: 12px 12px;
         display: block;
-        border: 24px;
-        border-radius: 12px;
     }
 
     nav a:hover {
@@ -197,7 +187,7 @@
     
     input, textarea {
         color: #E6B325;     
-        background-color: #782c9f;
+        background-color: #a227bb;
         border: 2px  #E6B325 solid;
         border-radius: 8px;
         padding: 8px;
@@ -205,7 +195,7 @@
 
     input:focus, textarea:focus, input[type="reset"]:hover, [type="submit"]:hover {
         border: 2px  #896501 solid;
-        background-color: #3d0b57;
+        background-color: #7f1993;
     }
 
     input [type="radio"] {
@@ -217,9 +207,20 @@
     }
 
     @media screen and (max-width: 480px) {
+        #header-position {
+            
+        }
+        #footer-position {
+            
+        } 
+        #header-style,  #footer-style {
+            
+        }
+        nav {
+            overflow: hidden;
+        }
+        nav a {
 
+        }
     }
-
-    @media screen and (min-width: 600px)    {
         
-    }
