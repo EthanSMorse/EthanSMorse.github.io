@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head
+<head   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +10,13 @@
     <title>Home</title>
         <link rel="stylesheet" href="style.css">
     <style> 
-        p.text {
-            width: 27em; 
-            word-wrap: break-word;
+        main {
+            margin: auto;
+        }   
+    @media screen and (max-width: 480px) {
+            nav {
+            top: 59px;
+            }
         }
     </style>
 </head>
@@ -25,8 +29,10 @@
         <li><a href="projects.html">Past Projects</a></li>
         <li><a href="Contacts.html">Contact Me</a></li>
     </nav>
-        <p class= "text box-style" id="index-intro">Hello, my name is Ethan Morse. As of the making of this website, I am a student at the Brooklyn STEAM center. Here, I am in the Full-Stack Development class, currently learning all of the different commands I can utilize in the HTML programming language. Its pretty fun so far.</p>
-        <img class="picture-style" id="index-picture" src="20230214_131602.jpg" alt="Image of Ethan Morse looking at camera." width=470>
+    <main>
+        <p class="box-style text" id="index-intro">Hello, my name is Ethan Morse. As of the making of this website, I am a student at the Brooklyn STEAM center. Here, I am in the Full-Stack Development class, currently learning all of the different commands I can utilize in the HTML programming language. Its pretty fun so far.</p>
+        <img class="picture-style" id="index-picture" src="20230214_131602.jpg" alt="Image of Ethan Morse looking at camera.">
+    </main>
     <h1 class="footer-style center" id="footer-position">Thanks for coming!</h1> 
 </body>
 </html>
