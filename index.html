@@ -12,12 +12,22 @@
     <style> 
         main {
             margin: auto;
+            max-width: 1024px;
         }   
     @media screen and (max-width: 480px) {
             nav {
             top: 59px;
             }
         }
+
+    @media screen and (min-width: 481px) {
+        .index-grid {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            padding: 200px 0 0 0;
+            gap: 250px 100px;
+        }
+    }
     </style>
 </head>
 <body>
@@ -29,9 +39,11 @@
         <li><a href="projects.html">Past Projects</a></li>
         <li><a href="Contacts.html">Contact Me</a></li>
     </nav>
-    <main>
-        <p class="box-style text" id="index-intro">Hello, my name is Ethan Morse. As of the making of this website, I am a student at the Brooklyn STEAM center. Here, I am in the Full-Stack Development class, currently learning all of the different commands I can utilize in the HTML programming language. Its pretty fun so far.</p>
-        <img class="picture-style" id="index-picture" src="20230214_131602.jpg" alt="Image of Ethan Morse looking at camera.">
+    <main class="index-grid">
+        <section>
+            <p class="box-style text" id="index-intro">Hello, my name is Ethan Morse. As of the making of this website, I am a student at the Brooklyn STEAM center. Here, I am in the Full-Stack Development class, currently learning all of the different commands I can utilize in the HTML programming language. Its pretty fun so far.</p>
+            <img class="picture-style" id="index-picture" src="20230214_131602.jpg" alt="Image of Ethan Morse looking at camera." width="">
+        </section>
     </main>
     <h1 class="footer-style center" id="footer-position">Thanks for coming!</h1> 
 </body>

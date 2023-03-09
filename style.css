@@ -15,17 +15,18 @@
     }
 
     #index-picture {
-        margin-top: 125px;
-        margin-right: 150px;
         width: 470px;
+        margin-bottom: 200px;
     }
 
-    #index-intro {  
+    #index-intro { 
+        margin-top: 250px;
         padding: 10px;
-        margin-top: 380px;
-        margin-left: 275px;
-        text-align: center;
-        float: left;
+        height: fit-content;
+    }
+
+    .occupation1 {
+        
     }
 
     .project-box1 {
@@ -69,28 +70,18 @@
     }
 
     #project5    {
-        margin-top: 100px;
-        margin-left: 225px;
+        margin-top: 200px;
+        margin-left: 295px;
         margin-bottom: 200px;
     }
 
-    #project1-picturet {
-        margin-top: 200px;
-        margin-right: 150px;
+    .project-width-A {
+        width: 500px;
     }
 
-    #project2-picturet {
-        margin-top: 150px;
-        margin-right: 150px;
-    }
-
-    #project3-picturet {
-        margin-top: 150px;
-        margin-right: 195px;
-    }
-
-    #project4-picturet {
-        margin-right: 150px;
+    .project-width-B {
+        width: 400px;
+        margin-right: 55px;
     }
 
     .fontsize {
@@ -171,8 +162,7 @@
     }
 
     #form-position {
-        margin-top: 100px;
-        margin-left: 150px;
+        margin-top: 150px;
     }
 
     nav {
