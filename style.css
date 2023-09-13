@@ -67,14 +67,27 @@ nav a:hover {
 }
 
 #occupation1 {
-    margin-top: 50px;
+    margin-top: 200px;
     padding: 10px;
     height: fit-content;
 }
 
 #occupations-picture1 {
+    margin-top: 155px;
+    width: 450px;
+}
+
+#occupation2 {
+    margin-top: 50px;
+    padding: 10px;
+    height: fit-content;
+    margin-bottom: 200px;
+}
+
+#occupations-picture2 {
     margin-bottom: 200px;
     width: 450px;
+    height: 385px
 }
 
 .projects-style {
@@ -120,6 +133,10 @@ nav a:hover {
 .project-width-B {
     width: 400px;
     margin-right: 55px;
+}
+
+#project-picture-1 {
+    height: 400px;
 }
 
 #form-position {
@@ -298,28 +315,11 @@ label {
         margin-bottom: 200px;
     }
 
-    #project1-picture {
+    .project-picture {
         margin-top: 50px;
         margin-right: 5px;
         width: 350px;
-    }
-
-    #project2-picture{
-        margin-top: 50px;
-        margin-right: 5px;
-        width: 350px;
-    }
-
-    #project3-picture {
-        margin-top: 50px;
-        margin-right: 5px;
-        width: 350px;
-    }
-
-    #project4-picture {
-        margin-top: 50px;
-        margin-right: 5px;
-        width: 350px;
+        height: 400px;
     }
 
     .header-style, .footer-style {
